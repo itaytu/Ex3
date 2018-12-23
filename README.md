@@ -88,15 +88,15 @@ Short explanation on how to use the project:
    Utils - extra tools needed for calculations in project.
         
    ## Movement Algorithm short explanation
-   **ShortestPathAlgo:** - This class is the main part for calculating paths of fruits for each pacman.
-                             The way the algorithm for this class works is as such:
-                             1. At first the Algorithm calculates every possible path from pacman to fruit to each pacman and returns 
+   **ShortestPathAlgo:** This class is the main part for calculating paths of fruits for each pacman.
+                         The way the algorithm for this class works is as such:
+                          1. At first the Algorithm calculates every possible path from pacman to fruit to each pacman and returns 
                                 the shortest path by time to each pacman.
-                             2. After every pacman has one "shortest path" we rearrange those paths from the shortest one to the 
+                          2. After every pacman has one "shortest path" we rearrange those paths from the shortest one to the 
                                 longest one.
-                             3. We then create the calculated next step for all the pacmans, making sure there is no more than one
+                          3. We then create the calculated next step for all the pacmans, making sure there is no more than one
                                 pacman going to each different fruit.
-                             4. We initiate the next step calculated and make the changes needed for the next round (changes such as:
+                          4. We initiate the next step calculated and make the changes needed for the next round (changes such as:
                                 changing the position and time for the pacmans in order to calculate their new paths, remove the fruits
                                 that were "eaten" on the current round).
     
