@@ -303,6 +303,7 @@ public class Board extends JPanel implements MouseListener {
 				System.out.print(p.getFruitPath().get(i).getID() + " ");
 			}
 			System.out.println();
+			System.out.print("The time took for each step is: ");
 			for (int i = 0; i < p.getTimePath().size(); i++) {
 				System.out.print(p.getTimePath().get(i) + " ");
 			}
