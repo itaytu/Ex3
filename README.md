@@ -1,4 +1,4 @@
-   ## Ex3
+   ## Pacman Game Simulation
       
    In this section we've created a platform enabling the user to play a simple simulation of a **Pacman-Fruit Game** on a single map.
    The game can be played by two different options:
