@@ -1,49 +1,5 @@
-# Ex2-Ex4
-[Ex3 Project](#Ex3)
-
-
-## Ex2
-OOP project for Geometric and Geographic points 
-
-In this project we implemented a simple method to turn CSV files into Objects in java, containing Geometric, Geographic and other data 
-(such as: Name, LastSeen, Type etc.). After turning the files into objects we used a method to turn those objects into KML files.
-
-# How to use project
-Short explanation on how to use the project:
-  1. If only one CSV file is wanted use the following steps:
-      1. open the mainTest class and create a String for the CSVfile directory path (for example: "C:/Folder_name/File_name.csv").
-      2. Create a String for the new KML file output path as desired (for example: "C:/Desired_folder_name/new_file_name.kml").
-      3. Use the function Csv2Kml.writeFileKML(CSVfile String, KMLfile String).
-    
-  2. If a few CSV files are desired use the Following steps:
-      1. open the mainTest class and create a String for the folder directory path containing the CSV files 
-         (for example: "C:/Folder_name").
-      2. Create a String for the KML file output path as desired (for example: "C:/Desired_folder_name/new_file_name.kml").
-      3. Create a new GIS_project and scan the folder by using the MultiCSV.parseForCsvFiles.
-      4. Use the function MultiCSV.ProjectToKML to take the project and create a new KML file with the output path.
- 
- # Short explanation about the packages
-   Algorithms - Contains all the classes needed to implement the interfaces in order to create GIS elements, layers and projects.
-                This package also contains the class needed to scan for few CSV files and creating a KML file from it.
-    
-   Coords - Contains the classes needed to calculate relevant geographic and geometric information.
-            Such as: Distance3D, Distance2D, Add between 2 Points etc.
-
-   File_format - Contains relevent classes in order to read a CSV file and create a KML file.
-   
-   Geom - Contains the classes representing the Geometric data of an element.
-   
-   GIS - Contains the classes representing the metadata, element, layer, project interfaces.
-   
-   Tests - Contains the Junit classes for testing.
-   
-   
-
-   
    ## Ex3
-   
-   [Ex2 Project](#Ex2)
-   
+      
    In this section we've created a platform enabling the user to play a simple simulation of a **Pacman-Fruit Game** on a single map.
    The game can be played by two different options:
    - Loading a CSV file containing data regarding the Pacmans and Fruits.
@@ -99,5 +55,8 @@ Short explanation on how to use the project:
    4. We initiate the next step calculated and make the changes needed for the next round 
    (changes such as: changing the position and time for the pacmans in order to calculate their new paths, remove the fruits that
    were "eaten" on the current round).
-    
+  
+   ### Other Projects
+   For previous version of this project you can go into:
+   [GPS-Project](https://github.com/itaytu/GPS-Project).
     
